@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito' , sans-serif;
+  
+
+}
+
+body{
+    background: #94D9EA;
+
+}
+
+.main {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+}
+
+.left__main {
+    grid-column: span 2;
+    height: 100%;
+    background: #00324A;
+}
+
+.right__main {
+    grid-column: span 5;
+    background: #f7f7f7;
+    height: 100%;
+
+}
+
+.left__content{
+    padding: 2rem 3rem;
+}
+
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #002333;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100%;
+    border: 8px solid #002333
+}
+
+.name {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+
+.career {
+    font-size: 1.0rem;
+    color: #94D9EA;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.8rem;
+}
+
+.main__title{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f7f7f7;
+    padding-top: 2rem;
+}
+
+.contact__info ul {
+    padding-top: 2rem ;
+}
+
+
+.contact__info ul li {
+    padding: .4rem 0;
+
+    display: flex
+    align-items: center;
+    color: #718096;
+}
+
+.contact__info ul li i {
+    padding-right: 1rem;
+    font-size: 1.1rem; 
+    color: #2D9CD8 ;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+}
+.skills ul li {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding: .4rem 0;
+
+}
+
+
+.progress-bar {
+    width: 100%;
+    height: .4rem;
+    background-color: #2D3748;
+    position: relative;
+    border-radius: 12px;
+
+}
+
+.progress {
+    height: 100% ;
+    position: absolute;
+    left: 0;
+    background-color: #2D9CD8;
+    border-radius: 12px;
+ }
+ 
+.c-bar {
+    width: 60%;
+}
+
+.js-bar {
+    width: 80%;
+}
+
+.ph-bar{
+    width: 50%;
+}
+
+.sql-bar {
+    width: 58%;
+}
+
+.skiils-title {
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 0.9rem;
+
+}
+
+
+.right__maincontent{
+    padding: 2rem 3rem ;
+
+}
+    
+
+.right-content{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2f80ed;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.right-content::after{
+    content :"";
+    position:absolute;
+    width: 60%;
+    height: .3rem;
+    background-color: #2D9CD8;
+    border-radius: 10px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+.para {
+    line-height: 1.6rem;
+    color : #718096;
+    font-size: 1.1rem;
+    
+
+}
+
+.sect{
+    padding-bottom: 2rem;
+}
